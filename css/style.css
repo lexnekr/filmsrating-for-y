@@ -1,0 +1,63 @@
+body{
+    padding:70px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+     background-color: #512DA8;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px ridge;
+    /*min-height:400px;*/
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+.active.btn-success{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #5cb85c;
+}
+.active.btn-danger{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #d9534f;
+}
+ 
+
+.btn-purple {
+    color: #fff;
+    background-color: #512DA8;
+    border-color: #512DA8;
+
+/*
+tr th {
+    white-space: nowrap;
+}*/

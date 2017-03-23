@@ -1,0 +1,17 @@
+{
+  "name": "film-rating",
+  "version": "1.0.0",
+  "description": "Сервис выбора фильма для коллективного просмотра",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "Zadoiniy Aleksey",
+  "license": "ISC"
+}
