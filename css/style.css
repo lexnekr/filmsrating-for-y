@@ -86,7 +86,9 @@ span.vertical{
     white-space: nowrap;
 }
 
-
+table{
+   margin: 0 auto
+}
 tr.border_havechecked {
     border-top: 2px solid #00ff00;
 }

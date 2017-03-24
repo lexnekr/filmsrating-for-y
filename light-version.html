@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+    <title>Рейтинг - какой фильм посмотреть вместе ...</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
+
+           <a class="navbar-brand" href="#">Какой фильм посмотреть вместе ...</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                    <div class="btn-group">
+                        <a class="btn btn-secondary" href="#" role="button"><span class="fa fa-plus"></span> Добавить список</a>
+                        <a class="btn btn-secondary" href="#" role="button">Дом</a>
+                        <a class="btn btn-secondary active" href="#" role="button">Отдел портальных...</a>
+                        <a class="btn btn-secondary" href="#" role="button"><span class="fa fa-address-card"></span> Профиль</a>
+                    </div>
+            </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h1>Отдел портальных технологий</h1>
+            </div>
+            <div class="col-md-7 align-self-center">
+                <div class="btn-group">
+                    <a class="btn btn-secondary" href="#" role="button">Добавить фильм</a>
+                    <a class="btn btn-secondary hidden-xs-down" href="#" role="button">Пригласить участника</a>
+                    <a class="btn btn-secondary hidden-xs-down" href="#" role="button">Добавить колонку</a>
+                    <a class="btn btn-secondary hidden-xs-down" href="#" role="button">Настройки рейтинга</a>
+                </div>
+            </div>
+       </div>
+
+       <div class="row row-content">
+            <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th class="hidden-sm-down"></th>
+                    <th># ▼</th>
+                    <th>Название</th>
+                    <th></th>
+                    <th>Счёт</th>
+                    <th></th>
+                    <th>Право вето</th>
+                    <th class="hidden-sm-down">Посмотрели</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border_havechecked">
+                    <th rowspan=1 class="hidden-sm-down"><span class="vertical">Согласованы</span></th>
+                    <th scope="row">0</th>
+                    <td><a href="#">Какой-то идеальный фильм</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle active"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>6 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+
+                <!-- -->
+                <tr class="border_havechecked">
+                    <th rowspan=8 class="hidden-sm-down"><span class="vertical">На голосовании</span></th>
+                    <th scope="row">1</th>
+                    <td><a href="#">Куб</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>3 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><a href="#">Лицо со шрамом</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle active"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>2 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><a href="#">Аватар</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>1 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td><a href="#">Перл Харбор</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>2 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td><a href="#">Медленный Запад</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>2 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td><a href="#">Молчание ягнят</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>4 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td><a href="#">Семь</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>2 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td><a href="#">Король лев</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>0 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle active"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+
+                <!-- -->
+                <tr class="border_haveseen">
+                    <th rowspan=2 class="hidden-sm-down"><span class="vertical">Посмотрели</span></th>
+                    <th scope="row">9</th>
+                    <td><a href="#">Метрополис</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>6 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><span class="fa fa-check" style="color:green;"></span> Посмотрели
+                    <br>
+                    <button type="button" class="btn btn-info">Посмотрели<br>снова</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td><a href="#">Игра</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>6 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><span class="fa fa-check" style="color:green;"></span> Посмотрели
+                    <br>
+                    <button type="button" class="btn btn-info">Посмотрели<br>снова</button></td>
+                </tr>
+
+                <!-- -->
+                <tr class="border_havebanned">
+                    <th rowspan=1 class="hidden-sm-down"><span class="vertical">Забанены</span></th>
+                    <th scope="row">11</th>
+                    <td><a href="#">Убить дракона</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>1 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle active"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+
+            </tbody>
+            </table>
+       </div>
+
+       <div class="row justify-content-center row-content">
+            <div class="btn-group">
+                <a class="btn btn-success" href="#" role="button">Добавить фильм</a>
+                <a class="btn btn-success" href="#" role="button">Добавить списком</a>
+            </div>
+       </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-auto">
+                    <h2>Другие фильмы</h2>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col"><img class="img-fluid" src="https://st.kp.yandex.net/images/film_iphone/iphone360_326.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://st.kp.yandex.net/images/film_iphone/iphone360_435.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/2360.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/389.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/361.jpg" alt=""></div>
+            </div>
+
+            <div class="row">
+                <div class="col-auto">
+                    <h3>Другие фильмы из моих рейтингов и избранного на Kinopoisk.ru</h3>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/6530.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/19297.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://st.kp.yandex.net/images/film/229835.jpg" alt=""></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-auto">
+                    <h3>Другие фильмы других участников рейтинга</h3>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/500358.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/381.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/930534.jpg" alt=""></div>
+                <div class="col"><img class="img-fluid" src="https://www.kinopoisk.ru/images/film_big/86326.jpg" alt=""></div>
+                <div class="col"></div>
+            </div>
+        </footer>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2017 Задойный А.В.</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+	
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
