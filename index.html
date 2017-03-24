@@ -51,6 +51,7 @@
             <table class="table table-responsive">
             <thead>
                 <tr>
+                    <th class="hidden-sm-down"></th>
                     <th># ▼</th>
                     <th>Название</th>
                     <th></th>
@@ -58,15 +59,31 @@
                     <th></th>
                     <th>IMDb</th>
                     <th>Жанр</th>
-                    <th>Когда я смотрел</th>
-                    <th>Torrent</th>
-                    <th>Online</th>
+                    <th class="hidden-sm-down">Когда я смотрел</th>
+                    <th class="hidden-sm-down">Torrent<br>Online</th>
                     <th>Право вето</th>
-                    <th>Посмотрели</th>
+                    <th class="hidden-sm-down">Посмотрели</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="border_havechecked">
+                    <th rowspan=1 class="hidden-sm-down"><span class="vertical">Согласованы</span></th>
+                    <th scope="row">0</th>
+                    <td><a href="#">Какой-то идеальный фильм</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle active"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>6 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td>8.00</td>
+                    <td>...</td>
+                    <td class="hidden-sm-down">2 года назад</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+
+                <!-- -->
+                <tr class="border_havechecked">
+                    <th rowspan=8 class="hidden-sm-down"><span class="vertical">На голосовании</span></th>
                     <th scope="row">1</th>
                     <td><a href="#">Куб</a></td>
                     <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
@@ -74,11 +91,10 @@
                     <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td>7.30</td>
                     <td>фантастика, триллер, ...</td>
-                    <td>2 года назад</td>
-                    <td><a href="#">rutracker</a></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">2 года назад</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
@@ -88,11 +104,10 @@
                     <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td>8.30</td>
                     <td>драма, криминал, ...</td>
-                    <td>2 года назад</td>
-                    <td><a href="#">rutracker</></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">2 года назад</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
@@ -102,11 +117,10 @@
                     <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td></td>
                     <td></td>
-                    <td>2 недели назад</td>
-                    <td><a href="#">rutracker</a></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">2 недели назад</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
                 <tr>
                     <th scope="row">4</th>
@@ -116,11 +130,10 @@
                     <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td></td>
                     <td></td>
-                    <td>1 месяц назад</td>
-                    <td><a href="#">rutracker</a></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">1 месяц назад</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
                 <tr>
                     <th scope="row">5</th>
@@ -130,11 +143,10 @@
                     <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td></td>
                     <td></td>
-                    <td>-</td>
-                    <td><a href="#">rutracker</a></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">-</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
                 <tr>
                     <th scope="row">6</th>
@@ -144,11 +156,10 @@
                     <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td></td>
                     <td></td>
-                    <td>давно</td>
-                    <td><a href="#">rutracker</a></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">давно</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
                 <tr>
                     <th scope="row">7</th>
@@ -158,11 +169,10 @@
                     <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td></td>
                     <td></td>
-                    <td>давно</td>
-                    <td><a href="#">rutracker</a></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">давно</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
                 <tr>
                     <th scope="row">8</th>
@@ -172,12 +182,61 @@
                     <td><button type="button" class="btn btn-danger btn-circle active"><i class="fa fa-thumbs-o-down"></i></button></td>
                     <td></td>
                     <td>Мультфильм</td>
-                    <td>давно</td>
-                    <td><a href="#">rutracker</a></td>
-                    <td><a href="#">kinogo.club</a></td>
+                    <td class="hidden-sm-down">давно</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
                     <td><button type="button" class="btn btn-danger">Запретить</button></td>
-                    <td><button type="button" class="btn btn-info">Посмотрели</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
                 </tr>
+
+                <!-- -->
+                <tr class="border_haveseen">
+                    <th rowspan=2 class="hidden-sm-down"><span class="vertical">Посмотрели</span></th>
+                    <th scope="row">9</th>
+                    <td><a href="#">Метрополис</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>6 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td>8.30</td>
+                    <td>фантастика, триллер, драма, ...</td>
+                    <td class="hidden-sm-down">2 месяца назад</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><span class="fa fa-check" style="color:green;"></span> Посмотрели
+                    <br>
+                    <button type="button" class="btn btn-info">Посмотрели<br>снова</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td><a href="#">Игра</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>6 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td>7.80</td>
+                    <td>триллер, драма, детектив, приключения, ...</td>
+                    <td class="hidden-sm-down">3 месяца назад</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><span class="fa fa-check" style="color:green;"></span> Посмотрели
+                    <br>
+                    <button type="button" class="btn btn-info">Посмотрели<br>снова</button></td>
+                </tr>
+
+                <!-- -->
+                <tr class="border_havebanned">
+                    <th rowspan=1 class="hidden-sm-down"><span class="vertical">Забанены</span></th>
+                    <th scope="row">11</th>
+                    <td><a href="#">Убить дракона</a></td>
+                    <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-thumbs-o-up"></i></button></td>
+                    <td>1 из 6</td>
+                    <td><button type="button" class="btn btn-danger btn-circle active"><i class="fa fa-thumbs-o-down"></i></button></td>
+                    <td>8.10</td>
+                    <td>фэнтези, драма, семейный, ...</td>
+                    <td class="hidden-sm-down">-</td>
+                    <td class="hidden-sm-down"><a href="#">rutracker</a><br><a href="#">kinogo.club</a></td>
+                    <td><button type="button" class="btn btn-danger">Запретить</button></td>
+                    <td class="hidden-sm-down"><button type="button" class="btn btn-info">Посмотрели</button></td>
+                </tr>
+
             </tbody>
             </table>
        </div>
