@@ -98,6 +98,9 @@ tr.border_haveseen {
 tr.border_havebanned {
     border-top: 2px solid #ff0000;
 }
+td.nowrap{
+    white-space: nowrap;
+}
 
 #login-dp{
     min-width: 250px;
